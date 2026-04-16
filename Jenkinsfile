@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Create Cluster in Kubernetes') {
             steps {
-                bat 'kubectl apply -f deployment.yaml'
+                 bat 'set KUBECONFIG=C:\\Users\\batch1\\.kube\\config && kubectl apply -f deployment.yaml'
             }
         }
     }
