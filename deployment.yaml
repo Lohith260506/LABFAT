@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gold-web
-        image: YOUR_DOCKER_USERNAME/gold-rate-app:latest
+        image: lohith2606/gold-rate-app:latest
         ports:
         - containerPort: 80
 ---
